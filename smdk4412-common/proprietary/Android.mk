@@ -37,14 +37,14 @@ ifneq ($(filter i9300 i9305 n7100 n8000 n8013 n8020 t0lte t0lteatt t0ltetmo i605
 #LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 #include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libfimc
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/lib/libfimc.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libfimc
+#LOCAL_MODULE_OWNER := samsung
+#LOCAL_SRC_FILES := system/lib/libfimc.so
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_SUFFIX := .so
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+#include $(BUILD_PREBUILT)
 
 endif
